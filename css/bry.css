@@ -1,0 +1,28 @@
+body{
+  background-color: #E7E7E6;
+}
+
+#bry {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 420px;
+    padding-top: 150px;
+    /*background-color: #E7E7E6;*/
+    height: 400px;
+    font-size: 60px;
+    font-family: 'Carter One', sans-serif;
+    background-image: url(../media/background1.jpeg);
+}
+
+#is {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-color: white;
+    height: 300px;
+}
+
+#the {
+    padding-left: 540px;
+    padding-top: 40px;
+}
