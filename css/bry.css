@@ -2,27 +2,65 @@ body{
   background-color: #E7E7E6;
 }
 
-#bry {
+#header {
     margin-left: 40px;
     margin-right: 40px;
     padding-left: 420px;
-    padding-top: 150px;
-    /*background-color: #E7E7E6;*/
-    height: 400px;
+    padding-top: 50px;
+    background-color: white;
+    height: 200px;
     font-size: 60px;
     font-family: 'Carter One', sans-serif;
-    background-image: url(../media/background1.jpeg);
+    /*background-image: url(../media/background1.jpeg);*/
 }
 
-#is {
+#pictures {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: white;
-    height: 300px;
+    height: 900px;
+    padding-left: 90px;
 }
 
 #the {
-    padding-left: 540px;
+    padding-left: 470px;
     padding-top: 40px;
+    font-size: 45px;
+    font-family: 'Karla', sans-serif;
+
+}
+#column1 p{
+  margin-bottom:15px;
+}
+#videos{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 850px;
+  padding-left: 35px;
+}
+#the2{
+  padding-left: 515px;
+  padding-top: 40px;
+  font-size: 45px;
+  font-family: 'Karla', sans-serif;
+}
+#tutors{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 500px;
+  padding-left: 35px;
+}
+#the3{
+  padding-left: 515px;
+  padding-top: 40px;
+  font-size: 45px;
+  font-family: 'Karla', sans-serif;
 }
