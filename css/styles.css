@@ -1,0 +1,29 @@
+#head {
+  text-align: center;
+  padding: 25px;
+}
+
+#quotes {
+  text-align: center;
+  padding: 25px;
+}
+
+#sections {
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+}
+
+.ref-btn {
+  border: solid black 1px;
+  background-color: white;
+  color: black;
+}
+
+.col-md-4 {
+  padding-bottom: 20px;
+}
+
+.section-content {
+  display: none;
+}
