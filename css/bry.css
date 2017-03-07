@@ -5,7 +5,7 @@ body{
 #header {
     margin-left: 40px;
     margin-right: 40px;
-    padding-left: 420px;
+    padding-left: 470px;
     padding-top: 50px;
     background-color: white;
     height: 200px;
@@ -55,12 +55,22 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
-  height: 500px;
-  padding-left: 35px;
+  height: 770px;
+  padding-left: 100px;
 }
 #the3{
-  padding-left: 515px;
+  padding-left: 470px;
   padding-top: 40px;
   font-size: 45px;
   font-family: 'Karla', sans-serif;
+}
+#copyright{
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 70px;
+  background-color: #7E7E7E;
+  padding-top: 25px;
+}
+#copyright p{
+  padding-left: 410px;
 }
