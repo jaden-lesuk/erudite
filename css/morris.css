@@ -1,0 +1,42 @@
+.jumbotron {
+    height: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    background-color: #E7E7E6
+}
+
+#sidebar {
+    background-color: #000000;
+    min-height: 1250px;
+    height: auto;
+    height: 1250px;
+    border: thin silver;
+    color: #DAA520;
+}
+
+.xxx {
+    background-color: white;
+}
+
+
+}
+.scholar {
+    margin-bottom: 0px;
+    height: 300px;
+}
+.college {
+    margin-top: 350px;
+    margin-bottom: 100px;
+    height: 300px;
+}
+.exchange {
+    margin-top: px;
+    height: 300px;
+}
+figure{
+  padding-bottom: 10px;
+}
