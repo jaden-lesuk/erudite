@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+.logo{
+animation-iteration-count: infinite;
+}
+.header{
+  background-color: #fff;
+}
+.jumbotron{
+font-family: 'Orbitron', sans-serif;
+color:  #800000;
+}
+.jumbotron h1{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  color: #800000;
+}
+.
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.middle, .middle1, .middle2, .middle3, .middle4, .middle5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(128, 0, 0, 0.4);
+  opacity: 20;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.china:hover .middle {
+  /*opacity: 1;*/
+  /*bottom: 0;*/
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 96%;
+  /*height: 100%*/
+}
+.text, .text1, .text2, .text3, .text4, .text5{
+  white-space: nowrap; 
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.french:hover .middle1{
+  opacity: 1;
+  width: 100%;
+}
+
+.music:hover .middle2 {
+  opacity: 1;
+  width: 100%;
+}
+.learnf:hover .middle3 {
+  opacity: 1;
+  width: 100%;
+}
+
+.learnc:hover .middle4 {
+  opacity: 1;
+  width: 100%;
+}
+.great:hover .middle5 {
+  opacity: 1;
+  width: 100%;
+}
+
+.button {
+  border-radius: 4px;
+  background-color:#B29600;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+}
+  
+footer {
+  background-image: url("http://www.digitalfamily.com/mobilewebdesign/wp-content/themes/vanilla/images/header-texture.jpg");
+  height: 200px;
+  padding-top: 30px;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
