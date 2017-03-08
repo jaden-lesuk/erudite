@@ -1,0 +1,81 @@
+body{
+  background-color: #E7E7E6;
+}
+
+#header {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    height: 250px;
+    font-size: 60px;
+    font-family: 'Carter One', sans-serif;
+}
+#headerimg{
+  padding-left: 10px;
+
+}
+#headertext{
+  padding-left: 480px;
+  padding-top: 0px;
+}
+
+#pictures {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 900px;
+    padding-left: 90px;
+}
+
+#the {
+    padding-left: 470px;
+    padding-top: 40px;
+    font-size: 45px;
+    font-family: 'Karla', sans-serif;
+
+}
+#column1 p{
+  margin-bottom:15px;
+}
+#videos{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 850px;
+  padding-left: 35px;
+}
+#the2{
+  padding-left: 515px;
+  padding-top: 40px;
+  font-size: 45px;
+  font-family: 'Karla', sans-serif;
+}
+#tutors{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 770px;
+  padding-left: 100px;
+}
+#the3{
+  padding-left: 470px;
+  padding-top: 40px;
+  font-size: 45px;
+  font-family: 'Karla', sans-serif;
+}
+#copyright{
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 70px;
+  background-color: #7E7E7E;
+  padding-top: 25px;
+}
+#copyright p{
+  padding-left: 410px;
+}
