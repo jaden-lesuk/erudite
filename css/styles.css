@@ -1,3 +1,15 @@
+@font-face {
+  font-family: lieToME;
+  src: url(../fonts/lie-to-me.otf);
+  color: #9a9a9a;
+}
+
+@font-face {
+  font-family: orange-boi;
+  src: url(../fonts/orange.ttf);
+  color: #9a9a9a;
+}
+
 #head {
   text-align: center;
   padding: 25px;
@@ -6,6 +18,12 @@
 #quotes {
   text-align: center;
   padding: 25px;
+  font-family: lieToME;
+  color: gold;
+}
+
+#quotes h2 {
+  font-size: 50px;
 }
 
 #sections {
@@ -15,9 +33,9 @@
 }
 
 .ref-btn {
-  border: solid black 1px;
-  background-color: white;
-  color: black;
+  border: solid #7FFFD4 1px;
+  color: #7FFFD4;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .col-md-4 {
@@ -26,4 +44,21 @@
 
 .section-content {
   display: none;
+  height: 120px;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid #58B294 2px;
+  color: #58B294;
+}
+
+h3 {
+  font-family: orange-boi;
+  font-size: 50px;
+  color: #72E5BE;
+}
+
+h1 {
+  font-family: orange-boi;
+  font-size: 65px;
+  color: #72E5BE;
 }

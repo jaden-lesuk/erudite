@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/scripts.js"></script>
 
@@ -12,52 +13,51 @@
 </head>
 
 <body>
-  <div id="head">
-    <img src="assets/images/logo.png" alt="logo" width="250" height="250">
-    <p id="motto">
-      <h1>Connect...Learn...Share</h1>
-    </p>
-  </div>
-  <div id="quotes">
-    <p>
-      <h2>“Quote goes here...”</h2>
-    </p>
-  </div>
-  <div id="sections">
+  <div id="body-body">
+    <div id="head">
+      <img src="assets/images/logo.png" alt="logo" width="250" height="250" class="animated rotateIn">
+      <p id="motto">
+        <h1 class="animated fadeInDown">Connect...Learn...Share</h1>
+      </p>
+    </div>
+    <div id="quotes">
+      <h2 class="animated fadeInLeft">“You never stop learning”<br> -Jaden Lesuk</h2>
+    </div>
+    <div id="sections">
 
-    <div id="section-1" class="col-md-4">
-      <div class="section-logo">
-        <h3>RESOURCES</h3>
-        <img src="assets/images/books.png" alt="logo" width="150" height="150" class="img-circle">
+      <div id="section-1" class="col-md-4">
+        <div class="section-logo">
+          <h3 id="header-content-1">RESOURCES</h3>
+          <img src="assets/images/books.png" alt="logo" width="150" height="150" class="img-circle" id="img-section-1">
+        </div>
+        <div class="section-content" id="section-content-1">
+          <p class="content">This section contains all the learning resources <br> you will ever need such as <br>videos, books...</p>
+          <button class="btn ref-btn">Check it out</button>
+        </div>
       </div>
-      <div class="section-content">
-        <p clas="content">This section contains all the learning resources <br> you will ever need such as <br>videos, books...</p>
-        <button class="btn ref-btn">Check it out</button>
+
+      <div id="section-2" class="col-md-4">
+        <div class="section-logo">
+          <h3 id="header-content-2">WHAT'S NEXT</h3>
+          <img src="assets/images/schools.png" alt="logo" width="150" height="150" class="img-circle" id="img-section-2">
+        </div>
+        <div class="section-content" id="section-content-2">
+          <p class="content">This section contains all the information to guide your <br>passage from highschool to university...</p>
+          <button class="btn ref-btn">Check it out</button>
+        </div>
+      </div>
+
+      <div id="section-3" class="col-md-4">
+        <div class="section-logo">
+          <h3 id="header-content-3">ACTIVITIES</h3>
+          <img src="assets/images/scouts.png" alt="logo" width="150" height="150" class="img-circle" id="img-section-3">
+        </div>
+        <div class="section-content" id="section-content-3">
+          <p class="content">This section contains all co-curricular activities <br> you can imagine clubs, societies, <br>music, art, sports...</p>
+          <button class="btn ref-btn">Check it out</button>
+        </div>
       </div>
     </div>
-
-    <div id="section-2" class="col-md-4">
-      <div class="section-logo">
-        <h3>WHAT'S NEXT</h3>
-        <img src="assets/images/schools.png" alt="logo" width="150" height="150" class="img-circle">
-      </div>
-      <div class="section-content">
-        <p clas="content">This section contains all the information to guide your <br>passage from highschool to university...</p>
-        <button class="btn ref-btn">Check it out</button>
-      </div>
-    </div>
-
-    <div id="section-3" class="col-md-4">
-      <div class="section-logo">
-        <h3>ACTIVITIES</h3>
-        <img src="assets/images/scouts.png" alt="logo" width="150" height="150" class="img-circle">
-      </div>
-      <div class="section-content">
-        <p clas="content">This section contains all co-curricular activities <br> you can imagine clubs, societies, <br>music, art, sports...</p>
-        <button class="btn ref-btn">Check it out</button>
-      </div>
-    </div>
-
   </div>
 </body>
 
