@@ -1,28 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-.logo{
-animation-iteration-count: infinite;
+@font-face {
+  font-family: lieToME;
+  src: url(../fonts/lie-to-me.otf);
+  color: #9a9a9a;
 }
-.header{
-  background-color: #fff;
+
+@font-face {
+  font-family: orange-boi;
+  src: url(../fonts/orange.ttf);
+  color: #9a9a9a;
 }
-.jumbotron{
-font-family: 'Orbitron', sans-serif;
-color:  #800000;
+
+.custom-navbar {
+  background: transparent;
+  border: 0px;
+  padding: 10px 0px 10px 0px;
 }
-.jumbotron h1{
-  font-family: 'Comfortaa', cursive;
+
+.img-circle {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+#img-slider {
+  padding: 25px 25px 25px 25px;
+}
+
+.jumbotron {
+  font-family: 'Orbitron', sans-serif;
+  color: #800000;
+}
+
+.jumbotron h3 {
+  font-family: orange-boi;
+  font-size: 50px;
   text-align: center;
   color: #800000;
 }
-.
 
-.image {
+. .image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.middle, .middle1, .middle2, .middle3, .middle4, .middle5{
+.middle, .middle1, .middle2, .middle3, .middle4, .middle5 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -43,8 +64,9 @@ color:  #800000;
   width: 96%;
   /*height: 100%*/
 }
-.text, .text1, .text2, .text3, .text4, .text5{
-  white-space: nowrap; 
+
+.text, .text1, .text2, .text3, .text4, .text5 {
+  white-space: nowrap;
   color: white;
   padding: 10px;
   font-size: 20px;
@@ -54,10 +76,9 @@ color:  #800000;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-
 }
 
-.french:hover .middle1{
+.french:hover .middle1 {
   opacity: 1;
   width: 100%;
 }
@@ -66,6 +87,7 @@ color:  #800000;
   opacity: 1;
   width: 100%;
 }
+
 .learnf:hover .middle3 {
   opacity: 1;
   width: 100%;
@@ -75,6 +97,7 @@ color:  #800000;
   opacity: 1;
   width: 100%;
 }
+
 .great:hover .middle5 {
   opacity: 1;
   width: 100%;
@@ -82,7 +105,7 @@ color:  #800000;
 
 .button {
   border-radius: 4px;
-  background-color:#B29600;
+  background-color: #B29600;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -117,13 +140,22 @@ color:  #800000;
 .button:hover span:after {
   opacity: 1;
 }
-  
-footer {
-  background-image: url("http://www.digitalfamily.com/mobilewebdesign/wp-content/themes/vanilla/images/header-texture.jpg");
-  height: 200px;
-  padding-top: 30px;
-  color: white;
-  font-size: 48px;
+
+#copyright {
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 70px;
+  background-color: #7E7E7E;
+  padding-top: 25px;
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+}
+
+#copyright p {
+  padding-left: 410px;
+  text-align: center;
+}
+
+p {
+  font-family: orange-boi;
+  font-size: 30px;
 }

@@ -1,45 +1,58 @@
-body{
+body {
   background-color: #E7E7E6;
 }
 
-#header {
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: white;
-    height: 250px;
-    font-size: 60px;
-    font-family: 'Carter One', sans-serif;
+.custom-navbar {
+  background: transparent;
+  border: 0px;
+  padding: 10px 0px 10px 0px;
 }
-#headerimg{
-  padding-left: 10px;
 
+nav .img-circle {
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
-#headertext{
+
+#header {
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: white;
+  height: 250px;
+  font-size: 60px;
+  font-family: 'Carter One', sans-serif;
+}
+
+#headerimg {
+  padding-left: 10px;
+}
+
+#headertext {
   padding-left: 480px;
   padding-top: 0px;
 }
 
 #pictures {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    height: 900px;
-    padding-left: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 900px;
+  padding-left: 90px;
 }
 
 #the {
-    padding-left: 470px;
-    padding-top: 40px;
-    font-size: 45px;
-    font-family: 'Karla', sans-serif;
+  padding-left: 470px;
+  padding-top: 40px;
+  font-size: 45px;
+  font-family: 'Karla', sans-serif;
+}
 
+#column1 p {
+  margin-bottom: 15px;
 }
-#column1 p{
-  margin-bottom:15px;
-}
-#videos{
+
+#videos {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 20px;
@@ -48,13 +61,15 @@ body{
   height: 850px;
   padding-left: 35px;
 }
-#the2{
+
+#the2 {
   padding-left: 515px;
   padding-top: 40px;
   font-size: 45px;
   font-family: 'Karla', sans-serif;
 }
-#tutors{
+
+#tutors {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 20px;
@@ -63,19 +78,22 @@ body{
   height: 770px;
   padding-left: 100px;
 }
-#the3{
+
+#the3 {
   padding-left: 470px;
   padding-top: 40px;
   font-size: 45px;
   font-family: 'Karla', sans-serif;
 }
-#copyright{
+
+#copyright {
   margin-left: 40px;
   margin-right: 40px;
   height: 70px;
   background-color: #7E7E7E;
   padding-top: 25px;
 }
-#copyright p{
+
+#copyright p {
   padding-left: 410px;
 }
