@@ -1,5 +1,24 @@
+@font-face {
+  font-family: lieToME;
+  src: url(../fonts/lie-to-me.otf);
+  color: #9a9a9a;
+}
+
+@font-face {
+  font-family: orange-boi;
+  src: url(../fonts/orange.ttf);
+  color: #9a9a9a;
+}
+
 body {
-  background-color: #E7E7E6;
+  background: url(../assets/backgrounds/black-hand.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
 }
 
 .custom-navbar {
@@ -14,12 +33,18 @@ nav .img-circle {
 }
 
 #header {
+  background-color: transparent;
+  height: 100px;
+  font-size: 80px;
+  font-family: orange-boi;
+  color: #800000;
   margin-left: 40px;
-  margin-right: 40px;
-  background-color: white;
-  height: 250px;
-  font-size: 60px;
-  font-family: 'Carter One', sans-serif;
+  margin-right: 550px;
+}
+
+#headertext h2 {
+  text-align: center;
+  font-size: 80px;
 }
 
 #headerimg {
@@ -32,20 +57,21 @@ nav .img-circle {
 }
 
 #pictures {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: white;
-  height: 900px;
+  height: 550px;
   padding-left: 90px;
 }
 
 #the {
   padding-left: 470px;
   padding-top: 40px;
-  font-size: 45px;
-  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  font-family: orange-boi;
+  color: #B29600;
 }
 
 #column1 p {
@@ -58,15 +84,16 @@ nav .img-circle {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
-  height: 850px;
+  height: 650px;
   padding-left: 35px;
 }
 
 #the2 {
   padding-left: 515px;
   padding-top: 40px;
-  font-size: 45px;
-  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  font-family: orange-boi;
+  color: #B29600;
 }
 
 #tutors {
@@ -75,15 +102,16 @@ nav .img-circle {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
-  height: 770px;
+  height: 550px;
   padding-left: 100px;
 }
 
 #the3 {
   padding-left: 470px;
   padding-top: 40px;
-  font-size: 45px;
-  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  font-family: orange-boi;
+  color: #B29600;
 }
 
 #copyright {
@@ -92,6 +120,7 @@ nav .img-circle {
   height: 70px;
   background-color: #7E7E7E;
   padding-top: 25px;
+  text-align: center;
 }
 
 #copyright p {
