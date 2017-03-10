@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url(../assets/backgrounds/black-hand.jpg);
+  background: url(../assets/backgrounds/onelaptop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -52,7 +52,7 @@ nav .img-circle {
 }
 
 #headertext {
-  padding-left: 480px;
+  padding-left: 430px;
   padding-top: 0px;
 }
 
@@ -61,16 +61,17 @@ nav .img-circle {
   margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: white;
-  height: 550px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid #B29600 2px;
+  height: 520px;
   padding-left: 90px;
 }
 
 #the {
-  padding-left: 470px;
-  padding-top: 40px;
-  font-size: 50px;
-  font-family: orange-boi;
+  padding-left: 380px;
+  padding-top: 10px;
+  font-size: 70px;
+  font-family: lieToMe;
   color: #B29600;
 }
 
@@ -83,16 +84,17 @@ nav .img-circle {
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: white;
-  height: 650px;
-  padding-left: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid #B29600 2px;
+  height: 630px;
+  padding-left: 15px;
 }
 
 #the2 {
-  padding-left: 515px;
-  padding-top: 40px;
-  font-size: 50px;
-  font-family: orange-boi;
+  padding-left: 430px;
+  padding-top: 10px;
+  font-size: 70px;
+  font-family: lieToMe;
   color: #B29600;
 }
 
@@ -101,16 +103,17 @@ nav .img-circle {
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: white;
-  height: 550px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid #B29600 2px;
+  height: 530px;
   padding-left: 100px;
 }
 
 #the3 {
-  padding-left: 470px;
-  padding-top: 40px;
-  font-size: 50px;
-  font-family: orange-boi;
+  padding-left: 400px;
+  padding-top: 10px;
+  font-size: 70px;
+  font-family: lieToMe;
   color: #B29600;
 }
 
