@@ -61,7 +61,7 @@ nav .img-circle {
   margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   border: solid #B29600 2px;
   height: 520px;
   padding-left: 90px;
@@ -84,7 +84,7 @@ nav .img-circle {
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   border: solid #B29600 2px;
   height: 630px;
   padding-left: 15px;
@@ -103,7 +103,7 @@ nav .img-circle {
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   border: solid #B29600 2px;
   height: 530px;
   padding-left: 100px;
