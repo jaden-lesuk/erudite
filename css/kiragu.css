@@ -1,82 +1,96 @@
-
 @font-face {
- font-family: lieToME;
- src: url(../fonts/lie-to-me.otf);
- color: #9a9a9a ;
+  font-family: lieToME;
+  src: url(../fonts/lie-to-me.otf);
+  color: #9a9a9a;
 }
 
-
 @font-face {
- font-family: orange;
- src: url(../fonts/orange.ttf);
- color: #9a9a9a ;
+  font-family: orange;
+  src: url(../fonts/orange.ttf);
+  color: #9a9a9a;
+}
+
+body {
+  background: url(../assets/backgrounds/bored.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
 }
 
 .navbar {
-margin-bottom: 0;
-border-radius: 0;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 .custom-navbar {
-background: transparent;
-border: 0px;
-padding: 10px 0px 10px 0px;
+  background: transparent;
+  border: 0px;
+  padding: 10px 0px 10px 0px;
 }
+
 .img-circle {
-margin-bottom: 5px;
-margin-left: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
-
-
 
 .carousel-inner img {
-width: 100%;
-margin: auto;
-min-height:200px;
+  width: 100%;
+  margin: auto;
+  min-height: 200px;
 }
-#myCarousel{
-margin: 10px;
+
+#myCarousel {
+  margin: 0px 0px 10px 0px;
 }
 
 @media (max-width: 600px) {
-.carousel-caption {
-display: none;
+  .carousel-caption {
+    display: none;
+  }
 }
-}
+
 .container1 {
   position: relative;
   width: 50%;
 }
 
-.im{
-	color: rgba(128, 0, 0, 0.4);
+.im {
+  color: rgba(128, 0, 0, 0.4);
 }
+
+
 /*End of hover*/
 
-.jumbotron h1{
-font-family: orange;
-color:  #800000;
+.jumbotron h1 {
+  font-family: orange;
+  color: #800000;
 }
 
-.jumbotron p{
-	font-family: lieToME;
-	color: #B29600;
-	font-size: 34px;
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px 40px 20px 40px;
+  border: solid #B29600 2px;
 }
 
-.jumbotron{
-background-image: url('http://www.zhongyaodqt.com/data/out/44/57029889-white-wallpapers.jpg');
-}
-.Copyright{
-margin-left: 40px;
-margin-right: 40px;
-height: 70px;
-background-color: #7E7E7E;
-padding-top: 25px;
-text-align: center;
-}
-.Copyright p {
-padding-left: 410px;
-text-align: center;
+.jumbotron p {
+  font-family: lieToME;
+  color: #B29600;
+  font-size: 34px;
 }
 
+#copyright {
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 70px;
+  background-color: #7E7E7E;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#copyright p {
+  padding-left: 410px;
+}
