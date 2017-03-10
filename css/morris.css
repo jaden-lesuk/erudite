@@ -1,4 +1,29 @@
+@font-face {
+  font-family: lieToME;
+  src: url(../fonts/lie-to-me.otf);
+  color: #B29600;
+}
 
+@font-face {
+  font-family: orange-boi;
+  src: url(../fonts/orange.ttf);
+  color: #800000;
+}
+
+body {
+  background: url(../assets/backgrounds/onelaptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.xxx {
+  background: transparent;
+}
 
 .custom-navbar {
   background: transparent;
@@ -13,24 +38,20 @@ nav .img-circle {
 
 body {
   height: 100%;
-  background-color: #F1F1F1 ;
+  background-color: #F1F1F1;
 }
 
 #sidebar {
-  background-color: #DBDBDB   ;
+  background-color: #DBDBDB;
   height: 700px;
   border: thin silver;
   margin-top: 60px;
 }
-#sidebar h4{
+
+#sidebar h4 {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 30px;
-}
-
-
-.xxx {
-  background-color: white;
 }
 
 
@@ -39,72 +60,74 @@ body {
   margin-bottom: 0px;
   height: 300px;
 }
-#scholar{
+#scholar {
   margin-top: 60px;
-  border-bottom: 1px solid #BFBFBF;
-  border-top: 1px solid #BFBFBF;
-  border-right: 1px solid #BFBFBF;
-  border-left: 1px solid #BFBFBF;
+  border: 2px solid #BFBFBF;
   height: 440px;
   padding-left: 30px;
+  background-color: grey;
 }
-.scholar h3{
+.scholar h3 {
+  font-family: orange-boi;
   padding-left: 250px;
   margin-bottom: 40px;
   margin-top: 50px;
+  color: #800000;
+  font-size: 30px;
 }
 .college {
   margin-top: 10px;
   margin-bottom: 100px;
   height: 300px;
 }
-#college{
+#college {
   margin-top: 60px;
-  border-bottom: 1px solid #BFBFBF;
-  border-top: 1px solid #BFBFBF;
-  border-right: 1px solid #BFBFBF;
-  border-left: 1px solid #BFBFBF;
+  border: 2px solid #BFBFBF;
   height: 440px;
   padding-left: 30px;
+  background-color: grey;
 }
 .college h3 {
+  font-family: orange-boi;
   padding-left: 250px;
   margin-bottom: 40px;
   margin-top: 50px;
+  color: #800000;
+  font-size: 30px;
 }
 .exchange {
   margin-top: px;
   height: 300px;
 }
-#exchange{
+#exchange {
   margin-top: 60px;
   padding-left: 30px;
-  border-bottom: 1px solid #BFBFBF;
-  border-top: 1px solid #BFBFBF;
-  border-right: 1px solid #BFBFBF;
-  border-left: 1px solid #BFBFBF;
-  height: 440px;
+  border: 2px solid #BFBFBF;
+  height: 460px;
   margin-bottom: 10px;
+  background-color: grey;
 }
-.exchange h3{
+.exchange h3 {
+  font-family: orange-boi;
   padding-left: 260px;
   margin-bottom: 40px;
   margin-top: 50px;
+  color: #800000;
+  font-size: 30px;
 }
-
-#expimg{
+#expimg {
   padding-left: 20px;
   padding-top: 30px;
 }
-#exptxt{
+#exptxt {
   padding-left: 60px;
   padding-top: 50px;
 }
-#uni{
+#uni {
   padding-left: 60px;
   padding-top: 30px;
 }
-#ships{
+#ships {
   padding-left: 60px;
   padding-top: 30px;
 }
@@ -121,16 +144,14 @@ body {
   transition: all 0.7s;
   cursor: pointer;
   margin-left: 100px;
-  margin-top:  20px;
+  margin-top: 20px;
 }
-
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .button span:after {
   content: '\00bb';
   position: absolute;
@@ -139,11 +160,9 @@ body {
   right: -20px;
   transition: 0.5s;
 }
-
 .button:hover span {
   padding-right: 25px;
 }
-
 .button:hover span:after {
   opacity: 1;
   right: 0;
